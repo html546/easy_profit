@@ -1,0 +1,161 @@
+html, body {
+    background: #1b1b1b!important;
+    width: 100%;
+    height: 100%;
+}
+
+a:hover, a:focus {
+    text-decoration: none!important;
+}
+
+.message_info {
+    height: 48px;
+    background: #050505;
+}
+
+.message_info .message_info1 {
+    overflow: hidden;
+    line-height: 48px;
+}
+
+.message_info .message_info1 p {
+    float: left;
+    color: #ffffff;
+    font-size: 12px;
+    margin-right: 44px;
+}
+
+.message_info .message_info1 p span {
+    color: #ac9455;
+    margin: 0 15px 0;
+}
+
+.message_info .message_info1 a {
+    font-size: 12px;
+    display: inline-block;
+    background: #ac9455;
+    color: #fff;
+    line-height: 24px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.message_info .message_info1 a:first-of-type {
+    margin-right: 10px;
+    width: 98px;
+}
+
+.message_info .message_info1 a:nth-of-type(2) {
+    margin-right: 12px;
+    width: 75px;
+}
+
+.message_info .message_info1 a:last-of-type {
+    width: 75px;
+}
+
+.navbar-black {
+    height: 90px;
+    margin-bottom: 0!important;
+    border-bottom: 4px solid #444444!important;
+    background: #050505!important;
+}
+
+.navbar-black .navbar-brand {
+    background: url(../images/logo1.png) no-repeat center;
+    background-size: cover;
+    width: 150px;
+    height: 55px;
+    margin-top: 5px;
+}
+
+.navbar-black .navbar-nav>li>a {
+    line-height: 45px;
+    background: #050505!important;
+}
+
+.navbar-black .navbar-nav>li>a:hover {
+    border-bottom: 1px solid #ac9455;
+    background: #050505!important;
+    color: #b78e26!important;
+}
+
+.navbar-black .navbar-nav>li:not(:first-child)>a:hover {
+    background: #ac9455!important;
+    color: #fff!important;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url(../images/banner.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.notice {
+    width: 100%;
+    height: 40px;
+    background: #ac9455;
+}
+
+.notice p {
+    color: #fff;
+    line-height: 40px;
+    overflow: hidden;
+}
+
+.notice p span {
+    background: url(../images/notice.png) no-repeat center;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    display: block;
+    margin-top: 9px;
+    margin-right: 10px;
+    float: left;
+}
+
+.right_nav {
+    background: url(../images/service.png) no-repeat center;
+    background-size: cover;
+    width: 125px;
+    height: 210px;
+    margin-top: 180px;
+    overflow: hidden;
+}
+
+.right_nav p:first-child {
+    color: #ac9455;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.right_nav p {
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    line-height: 20px;
+}
+
+.content img {
+    width: auto;
+    height: 320px
+}
+
+.finance:hover>.finance_box, .member:hover .member_box, .points:hover .points_box, .account:hover .account_box, .trade:hover .trade_box, .exchange:hover .exchange_box {
+    display: block;
+}
+
+.finance_box, .member_box, .points_box, .account_box, .trade_box, .exchange_box {
+    display: none;
+}
+
+.finance_box li a, .member_box li a, .points_box li a, .account_box li a, .trade_box li a, .exchange_box li a {
+    height: 30px;
+    background: #a0a0a0;
+    color: #fff;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
