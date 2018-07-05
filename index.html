@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/index.css">
     <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/css/swiper.min.css">
 </head>
 
 <body>
@@ -159,7 +160,22 @@
         <!-- /.container-fluid -->
     </nav>
     <!-- banner -->
-    <div class="banner"></div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="banner"></div>
+            </div>
+            <div class="swiper-slide">
+                <div >1</div>
+            </div>
+            <div class="swiper-slide">
+                <div>2</div>
+            </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
     <!-- notice -->
     <div class="notice">
         <div class="container">
@@ -188,22 +204,37 @@
                     </div>
                 </div>
                 <!-- <div class="col-md-2"> -->
-                    <!-- 右侧导航 -->
-                    <div class="right_nav">
-                        <p>QQ在线客服</p>
-                        <p>联系我们</p>
-                        <p>76678998</p>
-                        <p>客服电话</p>
-                        <p>98765367</p>
-                        <p>微信客服</p>
-                        <p>67893345678</p>
-                    </div>
+                <!-- 右侧导航 -->
+                <div class="right_nav">
+                    <p>QQ在线客服</p>
+                    <p>联系我们</p>
+                    <p>76678998</p>
+                    <p>客服电话</p>
+                    <p>98765367</p>
+                    <p>微信客服</p>
+                    <p>67893345678</p>
+                </div>
                 <!-- </div> -->
             </div>
         </div>
     </div>
     <script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.2/js/swiper.min.js"></script>
+    <script>
+        var mySwiper = new Swiper('.swiper-container', {
+            direction: 'horizontal',
+            loop: true,
+            autoplay:true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev'
+            }
+        })
+    </script>
 </body>
 
 </html>
