@@ -80,7 +80,7 @@ a:hover, a:focus {
     color: #b78e26!important;
 }
 
-.navbar-black .navbar-nav>li:not(:first-child)>a:hover {
+.navbar-black .navbar-nav>li:not(:first-child):hover>a {
     background: #ac9455!important;
     color: #fff!important;
 }
