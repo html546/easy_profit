@@ -189,7 +189,7 @@ a:hover, a:focus {
 
 .content img {
     width: auto;
-    height: 320px
+    height: 375px;
 }
 
 .finance:hover>.finance_box, .member:hover .member_box, .points:hover .points_box, .account:hover .account_box, .trade:hover .trade_box, .exchange:hover .exchange_box {

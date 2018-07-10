@@ -210,3 +210,68 @@ html, body {
     /* Internet Explorer 10+ */
     color: #fff;
 }
+
+.logo2 {
+    margin-top: 75px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 55px;
+}
+
+.panel {
+    margin-top: 13px;
+    border: 3px solid #b2a581!important;
+}
+
+.title-group * {
+    color: #ac9455;
+}
+
+.title-group h2 {
+    font-size: 30px;
+}
+
+.title-group p {
+    font-size: 10px;
+    position: relative;
+}
+
+.title-group p:after {
+    content: '————';
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 20px;
+}
+
+.content_text .stage {
+    margin-bottom: 25px;
+    padding: 0 90px;
+    box-sizing: border-box;
+}
+
+.content_text p {
+    font-size: 12px;
+    color: #595757;
+    margin: 0;
+}
+
+.panel-footer.panel-brown {
+    height: 120px;
+    background-color: #666666;
+}
+
+.panel-brown button {
+    background: #ab9354;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    width: 115px;
+    height: 48px;
+    line-height: 48px;
+    box-shadow: 5px 5px 10px #4d4c4c;
+    margin-top: 25px;
+    float: left;
+}
